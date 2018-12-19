@@ -1,0 +1,9 @@
+Basic set of rules for the sake of efficient and pleasant development.
+
+- Keep top directory as clean as possible
+- Create .gitignore for files that should not (IDE conf, cache files, npm/python libs) or must not (server credentials, API keys) be in repository
+- Avoid top-level .gitignore, rather place independent  .gitignores in lower-level directories
+- Care about commit messages
+- One feature - one branch
+- Master is working branch, ready for deployment
+- Develop is in progress branch
